@@ -1,0 +1,20 @@
+
+| # | Head Intent | Sub Intent (removed sheet) | Reason not programmed |
+|---|---|---|---|
+| 1 | ABA | abaBenefitsReferral | ABA routes only to `aba` |
+| 2 | ABA | abaAuthorization | ABA routes only to `aba` |
+| 3 | ABA | abaUnknown | ABA routes only to `aba` |
+| 4 | account | accountInformation | account routes to `accountUpdate` |
+| 5 | call List | callListUnsubscribe | no rule in playbook |
+| 6 | fertility | Fertility | no rule in playbook |
+| 7 | group | groupCheck | no rule in playbook |
+| 8 | healthLibrary | healthLibrary | no rule in playbook |
+| 9 | preApproval | preApprovalUpcomingProcedure | folds into `preApprovalStatus` |
+| 10 | tricare | tricareGeneral | no rule in playbook |
+| 11 | upset | upsetCaller | no rule in playbook |
+| 12 | concurrent Review | ConcurrentReview | routes to `careAdvocateCRU` |
+| 13 | referral | referral | no `referral` sub-intent |
+| 14 | networkRepresentative | NetworkRepresentative | routes to `networkService` |
+| 15 | IOPAuthorization | IOPAuthorization | IOP folds into `benefitsGeneralMentalHealth` |
+| 16 | enrollment | Eligibility | no `eligibility` sub-intent |
+| 17 | payment | payment | no `payment` sub-intent |
